@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.nevermoi</string>
+	<string>com.nevermoi.alfred.sgcn</string>
 	<key>category</key>
 	<string>Internet</string>
 	<key>connections</key>
@@ -25,7 +25,7 @@
 	<key>createdby</key>
 	<string>shuson</string>
 	<key>description</key>
-	<string>show sgcn bbs</string>
+	<string>狮城bbs</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -75,7 +75,7 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>updating</string>
+				<string>updating...</string>
 				<key>script</key>
 				<string>import sgcn
 
@@ -121,6 +121,6 @@ sgcn.run("{query}")</string>
 		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/shuson/alfred_workflows/tree/master/sgcn-alfred-workflow</string>
 </dict>
 </plist>
